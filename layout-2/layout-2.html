@@ -1,14 +1,35 @@
-<!-- TODO:
-Buat seperti yang ada di ./layout-2.png -->
-
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Card Produk</title>
   </head>
-  <body></body>
+  <body class="bg-slate-50 min-h-screen flex items-center justify-center p-6">
+    <!-- Card Container -->
+    <div class="relative bg-white rounded-lg shadow-xl p-5 w-[340px]">
+      <div class="absolute -top-3 -right-3 bg-red-400 text-white text-xs font-bold px-3 py-1.5 rounded shadow-md z-10">
+        DISKON 50%
+      </div>
+      <div class="relative w-full h-50 bg-indigo-100 rounded-lg flex items-center justify-center">
+        <span class="text-indigo-500 font-bold text-lg">Area Gambar Produk</span>
+
+        <div class="absolute top-3 right-3 bg-white w-8 h-8 rounded-full flex items-center justify-center shadow text-rose-500 text-sm cursor-pointer">
+          ❤️
+        </div>
+
+        <div class="absolute bottom-3 left-3 bg-slate-700 text-white text-xs font-semibold px-2.5 py-1 rounded-lg">
+          Stok Terbatas
+        </div>
+      </div>
+
+      <div class="mt-5 mb-2">
+        <h2 class="text-xl font-bold text-gray-800">Keyboard Mechanical</h2>
+        <p class="text-sm text-gray-500 mt-1">Switch tactile dengan lampu RGB.</p>
+      </div>
+
+    </div>
+
+  </body>
 </html>

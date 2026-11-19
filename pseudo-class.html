@@ -25,13 +25,13 @@
       <input
         type="text"
         placeholder="Ketik nama kamu di sini..."
-        class="w-full px-4 py-2 border border-gray-300 rounded-lg outline-none" />
+        class="w-full px-4 py-2 border border-gray-300 rounded-lg outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500" />
     </div>
 
     <!-- Tambahkan pseudo-class hover dan active pada tombol ini -->
     <div>
       <button
-        class="w-full bg-indigo-600 text-white font-medium py-2 rounded-lg transition shadow">
+        class="w-full bg-indigo-600 text-white font-medium py-2 rounded-lg transition shadow hover:bg-indigo-600 active:scale-95">
         Kirim Data
       </button>
     </div>
@@ -39,6 +39,6 @@
 </html>
 
 <!-- Note: 
-  1. Penulisan kode / sintaks yang digunakan: ...
-  2. Kesimpulan / Alasan: ...
+  1. Penulisan kode / sintaks yang digunakan: nambahin sintaks focus:border-blue-500 sama focus:ring-1, focus:ring-blue-500 (buat ngubah warna border sama ngasih efek kayak dipencet gitu di tombolnya)
+  2. Kesimpulan / Alasan: pake pseudo-class buat ngasih interaksi pada elemen, nah disitu pake hover sama focus
 -->

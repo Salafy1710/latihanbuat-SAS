@@ -20,14 +20,13 @@
   </head>
   <body class="p-8">
     <!-- Tambahkan class Tailwind dengan Important Modifier pada elemen di bawah ini -->
-    <div class="kotak-kustom p-6 rounded-xl font-bold shadow-md bg-red-500">
-      Kotak ini masih abu-abu karena kalah prioritas dengan CSS manual. Ubah
-      warnanya!
+    <div class="kotak-kustom p-6 rounded-xl font-bold shadow-md !bg-red-500 !text-white">
+      nah sekarang kotak ini udah menang prioritas cuyy, jadinya berubah warnanya jadi merah ama tulisannya putih
     </div>
   </body>
 </html>
 
 <!-- Note:   
-  1. Penulisan kode / sintaks yang digunakan: ...
-  2. Kesimpulan / Alasan: ...
+  1. Penulisan kode / sintaks yang digunakan: ditambahin tanda seru didepan class tailwind yang bg-red-500 sama text-white
+  2. Kesimpulan / Alasan: tanda seru/ (!) itu adalah important modifier, dipake buat bikin suatu utilitas class tailwind tu bisa menang prioritas gitu
 -->
